@@ -12,8 +12,8 @@ GLOBAL_CONN = {
 }
 
 BRANCH_CONNS = {
-    1: {"host": "192.168.64.5", "port": 5432, "dbname": "global_tech", "user": "branch1_user", "password": "123"},
-    2: {"host": "192.168.64.6", "port": 5432, "dbname": "global_tech", "user": "branch2_user", "password": "123"}
+    1: {"host": "192.168.64.4", "port": 5433, "dbname": "global_tech", "user": "branch1_user", "password": "123"},
+    2: {"host": "192.168.64.4", "port": 5434, "dbname": "global_tech", "user": "branch2_user", "password": "123"}
 }
 
 def get_conn(config):
